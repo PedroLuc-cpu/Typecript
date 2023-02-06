@@ -1,2 +1,2 @@
-# ReactTypecript
-Apeanas estudos react or typescript
+#Typecript
+Apeanas estudos typescript
