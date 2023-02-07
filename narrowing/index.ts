@@ -1,0 +1,28 @@
+enum genero{
+ feminino,
+ masculino
+}
+
+interface dados{
+    nome: string;
+    idade: number;
+    peso: number;
+    altura: number,
+    sexo:genero
+}
+
+const Pessoa:Array<dados> = [
+       {nome:"Pedro",idade:21, peso:76, altura:1.78, sexo:genero.masculino},
+       {nome:"Joao",idade:34, peso:90, altura:1.91, sexo:genero.masculino},
+       {nome:"Maria",idade:19, peso:68, altura:1.65, sexo:genero.feminino},
+       {nome:"Ana",idade:12, peso:54, altura:1.70, sexo:genero.feminino},
+       {nome:"Lucas",idade:14, peso:45, altura:1.82, sexo:genero.masculino},
+       {nome:"Vinicios",idade:10, peso:32, altura:1.62, sexo:genero.masculino},
+       {nome:"Vick",idade:18, peso:64, altura:1.60, sexo:genero.feminino}
+
+]
+console.log(Pessoa)
+
+const mapending = Pessoa.filter(mapKey => mapKey.altura >1.70)
+
+console.log(mapending)
