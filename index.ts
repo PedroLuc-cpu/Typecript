@@ -1,5 +1,3 @@
-       function getName(nome:string, sobrenome:string){
-              return console.log(nome, sobrenome)
-       }
-
-       getName('Pedro', 'Silva')
+const nun:number = 8
+const stri:number = 7
+       console.log(nun + stri)

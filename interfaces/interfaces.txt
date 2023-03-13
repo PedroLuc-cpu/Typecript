@@ -1,0 +1,2 @@
+Você pode usar interfaces para descrever um objeto, nomear e parametrizar os tipos do objeto
+e compor tipos de objetos nomeados existentes em novos.

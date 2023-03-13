@@ -1,5 +1,4 @@
 "use strict";
-function getName(nome, sobrenome) {
-    return console.log(nome, sobrenome);
-}
-getName('Pedro', 'Silva');
+const nun = 8;
+const stri = 7;
+console.log(nun + stri);
