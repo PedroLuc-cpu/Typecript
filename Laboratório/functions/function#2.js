@@ -42,4 +42,4 @@ function buildArray(items, sortOrder) {
 }
 let myArray = buildArray(12, 'crescente');
 let myArray1 = buildArray(8, 'decrescente');
-console.log(myArray1);
+console.log(myArray);
